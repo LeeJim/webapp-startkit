@@ -1,0 +1,30 @@
+{
+  "name": "webapp-startkit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-csso": "^3.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "browser-sync": "^2.26.5",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-webserver": "^0.9.1",
+    "postcss-px-to-viewport": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeJim/webapp-startkit.git"
+  },
+  "author": "leejimqiu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeeJim/webapp-startkit/issues"
+  },
+  "homepage": "https://github.com/LeeJim/webapp-startkit#readme"
+}
