@@ -1,9 +1,7 @@
 
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 10vh;
+    display: flex;
+    min-height: 10vh;
     padding: 32px;
     width: 100%;
     box-sizing: border-box;
@@ -17,19 +15,21 @@ header .avatar {
     border: 1px solid #999;
 }
 
+header .info {
+    margin-left: 20px;
+}
+
 header .name {
-    font-size: 16px;
+    font-size: 32px;
 }
 
 .list {
     padding: 32px;
-    padding-top: 13vh;
 }
 
 .list .item {
     display: flex;
     padding: 1vw;
-    border-radius: 1vw;
 }
 
 .list .item + .item {
@@ -43,5 +43,18 @@ header .name {
 }
 
 .item .content {
-    padding-left: 10px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.item .content .title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* modal */
+.modal-content {
+    width: unset;
+    margin-top: 100px;
 }
